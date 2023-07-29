@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-sky-500 hover:bg-sky-600 text-white rounded-lg px-2 py-1 w-fit mb-2;
+  }
+  .input {
+    @apply border border-slate-300 rounded-lg focus:outline-slate-400 text-gray-500 py-1 px-2  bg-slate-50;
+  }
+}
