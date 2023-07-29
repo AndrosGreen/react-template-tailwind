@@ -19,7 +19,9 @@ const Test = () => {
         </button>
         <input type="text" className="input" />
       </div>
-      <Dialog open={modalOpen} onClose={onClose} />
+      <Dialog open={modalOpen} onClose={onClose}>
+        Hi
+      </Dialog>
     </div>
   );
 };
